@@ -1,0 +1,60 @@
+.about {
+    background-color: #e6eaea;
+    padding: 30px;
+}
+
+.informacoes h1 {
+    color: var(--cor-0);
+    font-size: 1.7rem;
+    margin-bottom: 8px;
+}
+
+.informacoes h1::after {
+    content: "";
+    display: block;
+    border-radius: 6px;
+    width: 50px;
+    height: 4px;
+    background-color: var(--cor-2);
+}
+
+.lista-servicos_texto {
+    margin-top: 8px;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+.span {
+    text-decoration: underline;
+    color: var(--cor-0);
+}
+
+.fa-ul {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.fa-ul a {
+    padding-top: 1px;
+    color: var(--cor-0);
+}
+
+.fa-ul a:hover {
+    color: var(--cor-6);
+    text-decoration: underline;
+}
+
+.fa-ul li {
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.fa-solid {
+    color: var(--cor-2);
+}
+
+.lista-servicos_texto {
+    font-size: 1rem;
+}

@@ -1,0 +1,37 @@
+@import "./global/global.css";
+
+/* Utilidades */
+@import "./utilidades/tipografia.css";
+@import "./utilidades/cores.css";
+@import "./utilidades/componentes.css";
+@import "./utilidades/formulario.css";
+@import "./utilidades/formulario.css";
+@import "./utilidades/slider.css";
+@import "./utilidades/traducao.css";
+@import "./utilidades/orcamento.css";
+
+/* Servicos */
+@import "./servicos/servicos.css";
+@import "./servicos/servicos-slider.css";
+@import "./servicos/parquefabril.css";
+
+/* Home */
+@import "./home/sobre.css";
+@import "./home/noticias.css";
+@import "./home/politica.css";
+
+/* Quem Somos */
+@import "./quemsomos/linhatempo.css";
+@import "./quemsomos/sobrenos.css";
+
+
+/* Qualidade */
+@import "./qualidade/qualidade.css";
+
+/* Header e Footer */
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* Contato */
+@import "./contato/contato.css";
+

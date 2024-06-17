@@ -1,0 +1,63 @@
+.orcamento-form {
+    width: 100%;
+    background-color: var(--cor-3);
+}
+
+.orcamento-color {
+    background-color: var(--cor-3);
+}
+
+.form-novo {
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 15px;
+}
+
+.form-novo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .form-novo .col-2 {
+    grid-column: span 2;
+  }
+  
+  .form-novo label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--cor-0);
+  }
+  
+  .form-novo input[type="text"],
+  .form-novo input[type="email"],
+  .form-novo input[type="tel"],
+  .form-novo textarea {
+    font: 400 1rem/1.5 "Sora", sans-serif;
+    background: var(--cor-1);
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+    border-color: white;
+  }
+  
+  .form-novo input[type="text"]:focus,
+  .form-novo input[type="email"]:focus,
+  .form-novo textarea:focus {
+    outline: none;
+    background: var(--cor-1);
+    border: 2px solid var(--cor-0);
+  }
+  
+  @media (max-width: 600px) {
+    .form {
+      grid-template-columns: 1fr;
+    }
+    .form .col-2 {
+      grid-column: 1;
+    }
+  }
+  

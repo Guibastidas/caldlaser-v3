@@ -1,0 +1,128 @@
+.conteudo { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteudo h2 {
+    color: var(--cor-0);
+    margin-bottom: 20px;
+}
+
+.conteudo p, li {
+    color: var(--cor-0);
+}
+
+.politica {
+    width: 800px;
+    margin: auto;
+}
+
+.icon_politica {
+    width: 320px;
+    margin-left: 100px;
+    border-radius: 15px;
+}
+
+.conteudo h1 {
+    padding: 15px;
+    color: var(--cor-0);
+    font-size: 2rem;
+}
+
+.caixa_missao {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: 2px solid var(--cor-0);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    animation: fadeIn 1s ease-out;
+    position: relative;
+}
+
+.caixa_missao::after {
+    content: "";
+    width: 2px;
+    position: absolute;
+    height: 74px;
+    background-color: var(--cor-0);
+    top: 220px;
+    left: 370px;
+}
+
+
+.caixa_visao {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: 2px solid var(--cor-0);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    animation: fadeIn 1s ease-out;
+}
+
+.caixa_visao::after {
+    content: "";
+    width: 2px;
+    position: absolute;
+    height: 74px;
+    background-color: var(--cor-0);
+    top: 220px;
+    left: 370px;
+}
+
+.visao_info {
+    display: grid;
+    justify-self: center;
+}
+
+.caixa_valores {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    border: 2px solid var(--cor-0);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 70px;
+    animation: fadeIn 1s ease-out;
+}
+
+.valores_info {
+    display: grid;
+    justify-self: center;
+    width: 1050px;
+}
+
+.lista_valores {
+    display: grid;
+}
+
+
+/* Adicione as propriedades de estilo para a animação de fade-in */
+.caixa_missao, .caixa_valores {
+    opacity: 0;
+    transform: translateX(80px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  /* Adicione a classe visivel quando a caixa estiver visível */
+  .caixa_missao.visivel, .caixa_valores.visivel {
+    opacity: 1;
+    transform: translateX(0);
+  }
+
+  .caixa_visao {
+    opacity: 0;
+    transform: translateX(-80px);
+    transition: opacity 1s ease, transform 1s ease;
+  }
+  
+  /* Adicione a classe visivel quando a caixa estiver visível */
+  .caixa_visao.visivel {
+    opacity: 1;
+    transform: translateX(0);
+  }

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contate - nos</title>
+
+  <link rel="shortcut icon" href="logotipo_caldlaser_iniciais-11.ico" type="image/x-icon">
+
+  <link href="./css/style.css" rel="preload" as="style">
+  <link href="./css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/contato/contato.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sora&display=swap" rel="stylesheet">
+
+</head>
+
+<body id="contato">
+  <header class="header-bg">
+    <div class="header container">
+      <a href="./">
+        <img class="header-imagem" src="img/Logotipo_CaldLaser_Neg_Horizontal-cópia.webp" alt="Caldlaser">
+      </a>
+      <nav aria-label="primaria">
+        <ul class="header-menu font-header cor-1">
+          <li><a data-traduzir href="./index.html">Empresa</a></li>
+          <li><a data-traduzir href="./servicos.html">Serviços</a></li>
+          <li><a data-traduzir href="./qualidade.html">Qualidade</a></li>
+          <li><a data-traduzir href="./quemsomos.html">Quem somos</a></li>
+          <li><a data-traduzir href="./contato.html">Contato</a></li>
+          <div id="language-buttons">
+            <button id="translate-to-english" onclick="translate('en')"></button>
+            <button id="translate-to-portuguese" onclick="translate('pt')"></button>
+            <button id="translate-to-spanish" onclick="translate('es')"></button>
+          </div>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="titulo">
+      <div class="caixa">
+        <h1 data-traduzir class="font-titulo cor-0">Trabalhe Conosco</h1>
+      </div>
+    </div>
+
+    <div class="contato container">
+      <section class="contato-dados" aria-label="Endereço">
+        <h2 data-traduzir class="cor-0">Nossa localidade</h2>
+        <div class="contato-endereco font-textos cor-4">
+          <p>Avenida Sete Quedas, 1600</p>
+          <p>Itu - SP Brasil</p>
+          <p>CEP: 13313 - 006</p>
+        </div>
+        <address class="contato-meios font-textos cor-4">
+          <a href="mailto:comercial@caldlaser.com.br">comercial@caldlaser.com.br</a>
+          <a href="tel:+551140136500">+55 11 4013-6500</a>
+        </address>
+        <div class="contato-localiza">
+          <a target="_blank" href="https://www.google.com/maps/place/Caldeiraria+Caldlaser/@-23.2392692,-47.3226177,17.06z/data=!4m5!3m4!1s0x0:0x96bd93c18a02819e!8m2!3d-23.2395769!4d-47.3229532?hl=pt-BR&shorturl=1"><img src="img/mapa.PNG" alt=""></a>
+        </div>
+      </section>
+      <section class="contato-formulario" aria-label="Formulário">
+        <form class="form" action="./">
+          <div>
+            <label data-traduzir for="name">Nome</label>
+            <input type="text" id="name" name="name" placeholder="Seu nome" maxlength="24">
+          </div>
+          <div>
+            <label data-traduzir for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="contato@email.com" maxlength="50">
+          </div>
+          <div class="col-2">
+            <label data-traduzir for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Nos diga o que precisa?" rows="5"></textarea>
+          </div>
+          <div>
+            <label for="">Selecione a área que deseja trabalhar:</label>
+            <select name="" id="">
+              <option value="">selecione</option>
+              <option value="">Almoxarifado</option>
+              <option value="">Desenvolvimento</option>
+              <option value="">Expedição</option>
+              <option value="">Fiscal</option>
+              <option value="">Financeiro</option>
+              <option value="">Qualidade</option>
+              <option value="">Recursos Humanos</option>
+              <option value="">Outros</option>
+            </select>
+          </div>
+          <div>
+            <label for="">Envie seu curriculo:</label>
+            <input type="file">
+          </div>
+          <button data-traduzir class="botao col-2" type="submit">Enviar Mensagem</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+
+  <footer class="footer-bg">
+    <div class="footer container">
+      <div class="footer-imagem">
+        <img src="img/Logotipo_CaldLaser_Neg_Horizontal-cópia.webp" alt="Caldlaser">
+      </div>
+      <div class="footer-contato">
+        <div>
+          <h3 data-traduzir class="cor-2">Contato</h3>
+        </div>
+          <div class="footer-redes">
+            <a href="./"><img src="icones/instagram.svg" alt="Instagram"></a>
+            <a href="./"><img src="icones/facebook.svg" alt="Facebook"></a>
+            <a href="./"><img src="icones/linkedin.svg" alt="Linkedin"></a>
+          </div>
+        <ul class="font-rodape footer-adress cor-5">
+          <li>+55 11 4013-6500</li>
+          <li>comercial@caldlaser.com.br</li>
+          <li data-traduzir>Avenida Sete Quedas, 1600</li>
+          <li>Itu - SP - CEP: 13313-006</li>
+        </ul>
+      </div>
+      <div class="footer-informacoes">
+        <h3 data-traduzir class="cor-2">Informações</h3>
+        <nav>
+          <ul class="font-rodape cor-5">
+            <li><a class="footer-linha" data-traduzir href="./index.html">Empresa</a></li>
+            <li><a data-traduzir href="./servicos.html">Serviços</a></li>
+            <li><a data-traduzir href="./qualidade.html">Qualidade</a></li>
+            <li><a data-traduzir href="./quemsomos.html">Sobre nós</a></li>
+            <li><a data-traduzir href="./contato.html">Contato</a></li>
+            <li><a data-traduzir href="./conduta.html">Código de Conduta</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p data-traduzir class="font-rodape cor-1 footer-copy">Caldlaser © Todos os direitos reservados.</p>
+    </div>
+  </footer>
+  <script src="js/script.js"></script>
+  <script src="js/tradução.js"></script>
+
+</body>
+
+</html>

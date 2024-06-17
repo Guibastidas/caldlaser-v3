@@ -1,0 +1,58 @@
+#language-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+
+#translate-to-portuguese {
+    background-image: url('../../icones/brasil.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    width: 40px;
+    height: 20px;
+    border: none; 
+    cursor: pointer; 
+    border-radius: 8px;
+}
+
+#translate-to-portuguese:hover {
+    transform: scale(1.2);
+}
+
+#translate-to-english {
+    background-image: url('../../icones/eua.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+    width: 40px;
+    height: 20px;
+    border: none; 
+    cursor: pointer; 
+    border-radius: 8px;
+}
+
+#translate-to-english:hover {
+    transform: scale(1.2);
+}
+
+#translate-to-spanish {
+    background-image: url('../../icones/espanha2.jpg'); 
+    background-size: contain; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 39.5px;
+    width: 40px;
+    height: 20px;
+    border: none; 
+    cursor: pointer; 
+    border-radius: 8px;
+}
+
+#translate-to-spanish:hover {
+    transform: scale(1.2);
+}

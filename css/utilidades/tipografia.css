@@ -1,0 +1,40 @@
+.font-titulo {
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Sora", sans-serif;
+}
+
+.font-titulo-2 {
+  font-size: 0.8rem;
+  color: var(--cor-4);
+  font-family: "Sora", sans-serif;
+}
+
+.font-textos {
+  font-size: 1rem;
+  color: var(--cor-1);
+  font-family: "Sora", sans-serif;
+}
+
+.font-textos-2 {
+  font-size: 0.9rem;
+  color: var(--cor-6);
+  font-family: "Sora", sans-serif;
+}
+
+.font-textos-3 {
+  font-size: 2rem;
+  color: var(--cor-6);
+  font-family: "Sora", sans-serif;
+}
+
+.font-rodape {
+  font-size: 0.8rem;
+  color: var(--cor-1);
+  font-family: "Sora", sans-serif;
+}
+
+.font-header {
+  font-size: 0.9rem;
+  font-weight: bold;
+}
